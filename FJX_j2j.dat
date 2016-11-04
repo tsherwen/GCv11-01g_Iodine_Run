@@ -104,4 +104,20 @@
  103 O3        PHOTON    O2        O(1D)                   1.000 /O3(1D)/
  104 MPN       PHOTON    HO2       NO3       HCHO          0.050 /MPN   /
  105 MPN       PHOTON    MO2       NO2                     0.950 /MPN   /
+ 106 I2        PHOTON    I         I                       1.000 /I2    /
+ 107 HOI       PHOTON    I         OH                      1.000 /HOI   /
+ 108 IO        PHOTON    I         O                       1.000 /IO    /
+ 109 OIO       PHOTON    I         O2                      1.000 /OIO   /
+ 110 INO       PHOTON    I         NO                      1.000 /INO   /
+ 111 INO2      PHOTON    I         NO2                     1.000 /IONO  /
+ 112 IONO2     PHOTON    I         NO3                     1.000 /IONO2 /
+ 113 I2O2      PHOTON    I         OIO                     1.000 /I2O2  /
+ 114 CH3I      PHOTON    I         CH2O2                   1.000 /CH3I  /
+ 115 CH2I2     PHOTON    I         I         CH2           1.000 /CH2I2 /
+ 116 CH2ICl    PHOTON    I         CH2Cl                   1.000 /CH2ICl/
+ 117 CH2IBr    PHOTON    I         CH2Br                   1.000 /CH2IBr/
+ 118 I2O4      PHOTON    OIO       OIO                     1.000 /I2O2  /
+ 119 I2O3      PHOTON    OIO       IO                      1.000 /I2O3  /
+ 120 IBr       PHOTON    I         Br                      1.000 /IBr   /
+ 121 ICl       PHOTON    I         Cl                      1.000 /ICl   /
 9999
