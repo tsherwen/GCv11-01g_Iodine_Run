@@ -19,8 +19,7 @@ input.geos.geos*
 input.geos.merra*
 *.log
 HEMCO*Config.rc
-HEMCO*restart*sp
-HEMCO*restart*mp
+HEMCO*restart*
 HEMCO*log*
 lastbuild.*
 Makefile
@@ -29,3 +28,4 @@ tracer*mass*.dat
 *.mp
 *.sp
 CodeDir
+Emissions
