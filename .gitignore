@@ -29,3 +29,11 @@ tracer*mass*.dat
 *.sp
 CodeDir
 Emissions
+HEMCO_Config.rc.*
+input.geos.*
+*/*nc
+*.py
+*.sh
+*_output
+DiagnFile.rc
+*.pbs
