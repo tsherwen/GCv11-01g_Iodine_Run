@@ -103,8 +103,8 @@ Warnings:                    4
     --> GEIA              :       true
     --> LIANG_BROMOCARB   :       true
     --> ORDONEZ_IODOCARB  :       true
-    --> NEI2005           :       false
-    --> NEI2011           :       true
+    --> NEI2005           :       true
+    --> NEI2011           :       false
     --> RETRO             :       true 
     --> SHIP              :       true
     --> NEI2011_SHIP      :       false
@@ -118,7 +118,7 @@ Warnings:                    4
     --> QFED2             :       false
 # -----------------------------------------------------------------------------
 100     Custom            : off   - 
-101     SeaFlux           : on    CH3I/DMS/ACET
+101     SeaFlux           : on    DMS/ACET
 102     ParaNOx           : on    NO/NO2/O3/HNO3
     --> LUT data format   :       nc
     --> LUT source dir    :       $ROOT/PARANOX/v2015-02
@@ -809,7 +809,7 @@ Warnings:                    4
 # TMS 2017-02-06: restore CH3I from terresterial sources included (ocean masked to not overwrite CH3I from sea-flux)
 #==============================================================================
 (((ORDONEZ_IODOCARB
-0 ORDONEZ_CH3I   Emissions/CH3I_monthly_emissions_Ordonez_2012_COARDS.nc   CH3I   2000/1-12/1/0 C xy kg/m2/s CH3I 1008 1 50
+0 ORDONEZ_CH3I   Emissions/CH3I_monthly_emissions_Ordonez_2012_COARDS.nc   CH3I   2000/1-12/1/0 C xy kg/m2/s CH3I - 1 50
 0 ORDONEZ_CH2I2  Emissions/CH2I2_monthly_emissions_Ordonez_2012_COARDS.nc  CH2I2  2000/1-12/1/0 C xy kg/m2/s CH2I2  - 1 1
 0 ORDONEZ_CH2ICL Emissions/CH2ICl_monthly_emissions_Ordonez_2012_COARDS.nc CH2ICl 2000/1-12/1/0 C xy kg/m2/s CH2ICl - 1 1
 0 ORDONEZ_CH2IBR Emissions/CH2IBr_monthly_emissions_Ordonez_2012_COARDS.nc CH2IBr 2000/1-12/1/0 C xy kg/m2/s CH2IBr - 1 1
@@ -1133,7 +1133,7 @@ Warnings:                    4
 #==============================================================================
 # --- Seawater concentrations for oceanic emissions (Extension 101) ---
 #==============================================================================
-101 CH3I_SEAWATER   $ROOT/CH3I/v2014-07/ocean_ch3i.geos.4x5.nc       CH3I_OCEAN 1985/1-12/1/0 C xy kg/m3 CH3I - 1 1
+#101 CH3I_SEAWATER   $ROOT/CH3I/v2014-07/ocean_ch3i.geos.4x5.nc       CH3I_OCEAN 1985/1-12/1/0 C xy kg/m3 CH3I - 1 1
 101 DMS_SEAWATER    $ROOT/DMS/v2015-07/DMS_lana.geos.1x1.nc          DMS_OCEAN  1985/1-12/1/0 C xy kg/m3 DMS  - 1 1
 101 ACET_SEAWATER   $ROOT/ACET/v2014-07/ACET_seawater.generic.1x1.nc ACET       2005/1/1/0    C xy kg/m3 ACET - 1 1 
 
